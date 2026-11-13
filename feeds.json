@@ -1,0 +1,21 @@
+{
+  "window_days": 14,
+  "max_per_feed": 120,
+  "min_per_feed": 10,
+  "feeds": [
+    {
+      "id": "neat",
+      "name": "Neat",
+      "site": "https://neat.stoat.fans/",
+      "feed": "https://neat.stoat.fans/feed.xml",
+      "colour": "orange"
+    },
+    {
+      "id": "kk",
+      "name": "Kuriosity Kronicles",
+      "site": "https://krisbethea.github.io/KuriosityKronicles/",
+      "feed": "https://krisbethea.github.io/KuriosityKronicles/feed.xml",
+      "colour": "purple"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neativerse</title>
+<meta name="description" content="A shared board of neat things, dealt from a handful of hand-curated feeds.">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #f1ece1; --ink: #23201b; --muted: #6d665a; --card: #fffdf7; --line: #dcd3c1;
+  --shadow: 0 1px 2px rgba(60, 45, 20, .12), 0 4px 10px rgba(60, 45, 20, .06);
+}
+.hue-orange { --hue: #c85a00; --tag-ink: #fff; }
+.hue-purple { --hue: #6f3cc0; --tag-ink: #fff; }
+.hue-teal   { --hue: #0f7a78; --tag-ink: #fff; }
+.hue-green  { --hue: #3d7a1f; --tag-ink: #fff; }
+.hue-blue   { --hue: #1f62b8; --tag-ink: #fff; }
+.hue-rose   { --hue: #b8315e; --tag-ink: #fff; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #191816; --ink: #ece6da; --muted: #a59d8e; --card: #252320; --line: #3b3732;
+          --shadow: 0 1px 2px rgba(0, 0, 0, .5); }
+  .hue-orange { --hue: #f29138; --tag-ink: #1d1206; }
+  .hue-purple { --hue: #b08af0; --tag-ink: #150b26; }
+  .hue-teal   { --hue: #4cc2bd; --tag-ink: #04201f; }
+  .hue-green  { --hue: #8cc86a; --tag-ink: #0d1f05; }
+  .hue-blue   { --hue: #7ab0f2; --tag-ink: #06162b; }
+  .hue-rose   { --hue: #f08aac; --tag-ink: #2a0914; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+       font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: inherit; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+header { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px;
+         padding: 22px 20px 14px; max-width: 1640px; margin: 0 auto; }
+h1 { margin: 0; font: 700 28px/1.1 Georgia, "Iowan Old Style", "Times New Roman", serif;
+     letter-spacing: -.01em; }
+.tagline { margin: 0; color: var(--muted); flex: 1 1 220px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip, .btn { border: 1px solid var(--line); background: var(--card); border-radius: 999px;
+              padding: 5px 13px; }
+.chip { display: inline-flex; align-items: center; gap: 7px; }
+.chip::before { content: ""; width: 11px; height: 11px; border-radius: 50%; background: var(--hue); }
+.chip[aria-pressed="false"] { opacity: .5; text-decoration: line-through; }
+.btn { font-weight: 600; background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+#board { display: flex; align-items: flex-start; gap: 16px; padding: 6px 20px 8px;
+         max-width: 1640px; margin: 0 auto; }
+.col { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; gap: 16px; }
+
+.card { background: var(--card); border: 1px solid var(--line); border-top: 0; border-radius: 6px;
+        box-shadow: var(--shadow); overflow: hidden; }
+.tag { background: var(--hue); color: var(--tag-ink); padding: 3px 14px;
+       font-size: 11.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.body { padding: 12px 14px 4px; }
+.body::after { content: ""; display: block; clear: both; }
+.title { display: block; font: 700 18px/1.25 Georgia, "Iowan Old Style", "Times New Roman", serif;
+         text-decoration: none; overflow-wrap: anywhere; }
+.title:hover { text-decoration: underline; text-decoration-color: var(--hue); text-underline-offset: 3px; }
+.dept { margin: 3px 0 0; font-size: 12.5px; font-style: italic; color: var(--muted); }
+.pic { float: right; width: 38%; max-width: 132px; aspect-ratio: 1; object-fit: cover;
+       margin: 10px 0 6px 12px; border-radius: 4px; border: 1px solid var(--line); background: var(--line); }
+.why { margin: 9px 0 8px; overflow-wrap: anywhere; }
+.more { margin: 0 0 8px; color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+.foot { display: flex; align-items: center; gap: 8px; padding: 7px 8px 7px 14px;
+        border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+.meta { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.seen-btn { border: 1px solid var(--line); background: none; border-radius: 999px;
+            padding: 1px 9px; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.card.seen { opacity: .55; }
+.card.seen .seen-btn { background: var(--hue); color: var(--tag-ink); border-color: var(--hue); }
+
+.below { text-align: center; padding: 18px 20px 6px; }
+#note { text-align: center; color: var(--muted); padding: 40px 20px; }
+footer.page { max-width: 760px; margin: 0 auto; padding: 18px 20px 40px; text-align: center;
+              color: var(--muted); font-size: 13px; }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Neativerse</h1>
+  <p class="tagline">Neat things from more than one head, dealt fresh on every visit.</p>
+  <div class="controls">
+    <span id="chips" class="controls"></span>
+    <button id="shuffle" class="btn" type="button">Shuffle</button>
+  </div>
+</header>
+
+<main>
+  <div id="board"></div>
+  <p id="note" hidden></p>
+  <div class="below"><button id="more" class="chip" type="button" hidden>Deal more</button></div>
+</main>
+
+<footer class="page">
+  <p id="credits"></p>
+  <p>Each card links straight to the original story. “Seen” marks are kept in this browser only.</p>
+</footer>
+
+<script>
+(() => {
+  const BOARD = 30;        // cards in a fresh deal
+  const MORE = 18;         // cards added by "Deal more"
+  const HALF_LIFE = 3;     // days for a story's odds of being dealt to halve
+  const SEEN_ODDS = 0.15;  // how much less likely a seen story is to come up
+  const COLUMN = 300;      // target column width in px
+  const STORE = 'neativerse.seen';
+
+  const $ = id => document.getElementById(id);
+  const board = $('board'), note = $('note'), moreBtn = $('more');
+  let pool = { feeds: [], items: [] };
+  let feedById = {};
+  let dealt = [];                 // items on the board, in order
+  const off = new Set();          // feeds switched off
+  let seen = new Set();
+  let columns = 0;
+
+  // ---- seen marks (this browser only) ----
+  function loadSeen() {
+    try { seen = new Set(JSON.parse(localStorage.getItem(STORE) || '[]')); } catch (e) { seen = new Set(); }
+    const live = new Set(pool.items.map(i => i.id));   // forget stories that left the pool
+    seen = new Set([...seen].filter(id => live.has(id)));
+  }
+  function saveSeen() {
+    try { localStorage.setItem(STORE, JSON.stringify([...seen])); } catch (e) { /* private mode etc. */ }
+  }
+  function setSeen(item, card, on) {
+    on ? seen.add(item.id) : seen.delete(item.id);
+    card.classList.toggle('seen', on);
+    const btn = card.querySelector('.seen-btn');
+    btn.setAttribute('aria-pressed', on);
+    btn.textContent = on ? '✓ Seen' : 'Mark seen';
+    saveSeen();
+  }
+
+  // ---- dealing ----
+  // Weighted draw without replacement: newer stories and unseen stories are
+  // more likely to be dealt, but anything in the pool can come up.
+  function draw(items) {
+    const now = Date.now();
+    return items.map(item => {
+      const age = Math.max(0, (now - Date.parse(item.date)) / 864e5) || 0;
+      let weight = Math.pow(0.5, age / HALF_LIFE);
+      if (seen.has(item.id)) weight *= SEEN_ODDS;
+      return { item, key: Math.log(1 - Math.random()) / weight };
+    }).sort((a, b) => b.key - a.key);
+  }
+
+  function deal(count) {
+    const onBoard = new Set(dealt.map(i => i.id));
+    const active = pool.feeds.filter(f => !off.has(f.id));
+    const share = Math.ceil(count / Math.max(1, active.length));
+    let picked = [], spare = [];
+    for (const feed of active) {
+      const drawn = draw(pool.items.filter(i => i.feed === feed.id && !onBoard.has(i.id)));
+      // rank within the feed plus a little jitter, so feeds interleave on the board
+      drawn.forEach((d, rank) => { d.order = rank + Math.random() * 1.5; });
+      picked = picked.concat(drawn.slice(0, share));
+      spare = spare.concat(drawn.slice(share));
+    }
+    if (picked.length < count) {          // one feed ran short: top up from the others
+      spare.sort((a, b) => b.key - a.key);
+      picked = picked.concat(spare.splice(0, count - picked.length));
+    }
+    picked.sort((a, b) => a.order - b.order);
+    picked = picked.slice(0, count);
+    for (const p of picked) { dealt.push(p.item); place(p.item, dealt.length - 1); }
+
+    const left = pool.items.filter(i => !off.has(i.feed)).length - dealt.length;
+    moreBtn.hidden = left <= 0;
+    note.hidden = dealt.length > 0;
+    if (!dealt.length) note.textContent = 'Nothing on the board yet. Check back in a little while.';
+  }
+
+  function shuffle() {
+    dealt = [];
+    layout(true);
+    deal(BOARD);
+  }
+
+  // ---- layout: cards go left to right into columns of uneven height ----
+  function layout(force) {
+    const want = Math.max(1, Math.min(5, Math.floor(board.clientWidth / COLUMN)));
+    if (!force && want === columns) return;
+    columns = want;
+    board.replaceChildren(...Array.from({ length: columns }, () => {
+      const col = document.createElement('div');
+      col.className = 'col';
+      return col;
+    }));
+    dealt.forEach(place);
+  }
+  function place(item, index) {
+    board.children[index % columns].append(card(item));
+  }
+
+  // ---- cards ----
+  function el(tag, cls, text) {
+    const node = document.createElement(tag);
+    if (cls) node.className = cls;
+    if (text) node.textContent = text;
+    return node;
+  }
+  function ago(date) {
+    const hours = (Date.now() - Date.parse(date)) / 36e5;
+    if (!(hours >= 0)) return '';
+    if (hours < 1) return 'just now';
+    if (hours < 24) return Math.floor(hours) + 'h ago';
+    const days = Math.floor(hours / 24);
+    return days === 1 ? 'yesterday' : days + ' days ago';
+  }
+  function card(item) {
+    const feed = feedById[item.feed];
+    const node = el('article', 'card hue-' + feed.colour);
+    node.append(el('div', 'tag', feed.name));
+
+    const body = el('div', 'body');
+    const title = el('a', 'title', item.title);
+    title.href = item.link; title.target = '_blank'; title.rel = 'noopener';
+    title.addEventListener('click', () => setSeen(item, node, true));
+    body.append(title);
+    if (item.dept) body.append(el('p', 'dept', item.dept));
+    if (item.image) {
+      const pic = el('img', 'pic');
+      pic.src = item.image; pic.alt = ''; pic.loading = 'lazy'; pic.referrerPolicy = 'no-referrer';
+      pic.addEventListener('error', () => pic.remove());   // broken picture: fall back to a text card
+      body.append(pic);
+    }
+    if (item.why) body.append(el('p', 'why', item.why));
+    if (!item.image && item.summary) body.append(el('p', 'more', item.summary));
+    node.append(body);
+
+    const foot = el('div', 'foot');
+    foot.append(el('span', 'meta', [item.category, item.source, ago(item.date)].filter(Boolean).join(' · ')));
+    const btn = el('button', 'seen-btn');
+    btn.type = 'button';
+    btn.addEventListener('click', () => setSeen(item, node, !seen.has(item.id)));
+    foot.append(btn);
+    node.append(foot);
+    setSeen(item, node, seen.has(item.id));
+    return node;
+  }
+
+  // ---- page furniture ----
+  function furniture() {
+    $('chips').replaceChildren(...pool.feeds.map(feed => {
+      const chip = el('button', 'chip hue-' + feed.colour, feed.name);
+      chip.type = 'button';
+      chip.setAttribute('aria-pressed', 'true');
+      chip.title = 'Show or hide cards from ' + feed.name;
+      chip.addEventListener('click', () => {
+        if (!off.has(feed.id) && off.size === pool.feeds.length - 1) return;   // keep at least one on
+        off.has(feed.id) ? off.delete(feed.id) : off.add(feed.id);
+        chip.setAttribute('aria-pressed', !off.has(feed.id));
+        shuffle();
+      });
+      return chip;
+    }));
+    const credits = $('credits');
+    credits.append('Dealt from ');
+    pool.feeds.forEach((feed, n) => {
+      if (n) credits.append(n === pool.feeds.length - 1 ? ' and ' : ', ');
+      const link = el('a', '', feed.name);
+      link.href = feed.site;
+      credits.append(link);
+    });
+    const updated = ago(pool.generated);
+    credits.append('.' + (updated ? ' Pool last changed ' + updated + '.' : ''));
+  }
+
+  async function start() {
+    try {
+      const inline = $('pool-data');   // a pool baked into the page (used for previews)
+      pool = inline ? JSON.parse(inline.textContent)
+                    : await (await fetch('pool.json', { cache: 'no-cache' })).json();
+    } catch (e) {
+      note.hidden = false;
+      note.textContent = 'The board could not load its stories. Try again in a little while.';
+      return;
+    }
+    feedById = Object.fromEntries(pool.feeds.map(f => [f.id, f]));
+    pool.items = pool.items.filter(i => feedById[i.feed]);
+    loadSeen();
+    furniture();
+    shuffle();
+    $('shuffle').addEventListener('click', shuffle);
+    moreBtn.addEventListener('click', () => deal(MORE));
+    let timer;
+    window.addEventListener('resize', () => { clearTimeout(timer); timer = setTimeout(() => layout(false), 120); });
+  }
+  start();
+})();
+</script>
+</body>
+</html>
