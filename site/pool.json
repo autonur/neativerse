@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T10:56:44+00:00",
+ "generated": "2026-11-14T19:00:22+00:00",
  "feeds": [
   {
    "id": "neat",
@@ -1574,6 +1574,110 @@
    "why": "Someone painted all of Valencia, from the huerta to the Albufera lagoon, in the style of a 90s city builder, and every building is a real one. A pleasant place to get lost for ten minutes, and a map lover's idea of a screensaver.",
    "dept": "from the reticulating-paellas dept.",
    "summary": "Tiny Valencia is a zoomable isometric pixel-art map of the Spanish city, built by rendering real 3D cadastral and terrain data from a fixed angle and then repainting it tile by tile in a consistent pixel style. It covers almost the entire municipality, including the port and the Albufera."
+  },
+  {
+   "id": "0361fb16eb42",
+   "feed": "kk",
+   "title": "Borland C++ 2.0 Compiler Source Reconstructed",
+   "link": "https://hackaday.com/2026/11/13/borland-c-2-0-compiler-source-reconstructed/",
+   "date": "2026-11-14T18:43:54+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2017/05/c.jpg",
+   "why": "A developer has achieved a byte-perfect recreation of the classic Borland C++ 2.0 compiler source code. Utilizing modern tooling like Claude Code alongside historical binaries offers a fascinating glimpse into early nineties software engineering.",
+   "dept": "from the retro-compiling dept.",
+   "summary": "By reconstructing the source code of the 1991 Borland C++ 2.0 toolchain, developer Abedegno made it possible to compile binaries that match the original releases. The project documents the methodology behind reverse-engineering the vintage compiler."
+  },
+  {
+   "id": "665f5c73e21d",
+   "feed": "kk",
+   "title": "ESP32 Flight Tracker Displayed on Vintage Apple CRT Monitor",
+   "link": "https://hackaday.com/2026/11/13/esp32-flight-tracker-on-apple-crt/",
+   "date": "2026-11-14T18:42:54+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "",
+   "why": "Combining modern Wi-Fi microcontrollers with vintage cathode-ray tube displays is a timeless maker art. Using an ESP32's built-in DAC to drive composite video yields a charming retro visualization.",
+   "dept": "from the green-phosphor dept.",
+   "summary": "An ESP32-WROOM-32 board fetches live ADS-B flight data and aircraft photos over Wi-Fi, using its 8-bit digital-to-analog converter to output composite video straight to an old green-phosphor Apple II monitor."
+  },
+  {
+   "id": "ef03dbf7627a",
+   "feed": "kk",
+   "title": "Apollo 12 and Surveyor 3 in 3D Anaglyph",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-14-apollo-12-and-surveyor-3/",
+   "date": "2026-11-14T18:41:54+00:00",
+   "category": "Astrophotography",
+   "source": "science.nasa.gov",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/KF-ApAn48-7133-4.jpg",
+   "why": "Looking back at Apollo-era archive photos through a stereoscopic lens bridges historical exploration and amateur observing techniques. It's a wonderful reminder of humanity's early lunar footprints.",
+   "dept": "from the ocean of storms dept.",
+   "summary": "A 3D anaglyph featuring Apollo 12 astronaut Pete Conrad visiting the Surveyor 3 spacecraft on the Moon in November 1969 lets observers view the lunar surface with red and blue glasses."
+  },
+  {
+   "id": "8cee24b9ed38",
+   "feed": "kk",
+   "title": "When Einstein's Gravitational Waves Meet Newton's Tides",
+   "link": "https://www.universetoday.com/articles/when-einsteins-gravitational-waves-meet-newtons-tides",
+   "date": "2026-11-14T18:40:54+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/wd_05_20260615_101144_20261114_003414.jpg",
+   "why": "Theoretical frameworks bridging general relativity and classic celestial mechanics are always delightful. This research explores how high-precision tidal measurements might harbor relativistic traces.",
+   "dept": "from the relativistic tides dept.",
+   "summary": "A researcher at Freie Universität Berlin has developed a new theoretical framework aimed at searching high-precision measurements of lunar tides for subtle relativistic traces predicted by Einstein."
+  },
+  {
+   "id": "fb1222eb0ffe",
+   "feed": "kk",
+   "title": "Dense Galaxy Clusters Foster Mechanisms That Throttle Star Formation",
+   "link": "https://www.universetoday.com/articles/dense-galaxy-clusters-foster-mechanisms-that-throttle-star-formation",
+   "date": "2026-11-14T18:39:54+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/eso1438b_20261113_173311.jpg",
+   "why": "Understanding why star formation slowed down significantly after the universe's 'Cosmic Noon' helps piece together galactic evolution. New clues point directly toward the mechanics within dense galaxy clusters.",
+   "dept": "from the stellar nursery dept.",
+   "summary": "While star formation was prolific during the early universe, it has since slowed to a crawl. New research into a particularly dense galaxy cluster uncovers clues regarding what happened to the hydrogen gas needed to build stars."
+  },
+  {
+   "id": "11c0b2909e1f",
+   "feed": "kk",
+   "title": "Using a Toothbrush’s NFC Chip to Unlock a Computer",
+   "link": "https://hackaday.com/2026/11/13/using-a-toothbrushs-nfc-chip-to-unlock-a-computer/",
+   "date": "2026-11-14T18:38:54+00:00",
+   "category": "Curious Discoveries",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2026/11/toothbrush-snf-featured_d95783.jpg",
+   "why": "Repurposing obscure microcontroller-driven household items for entirely unintended tasks showcases peak hacker ingenuity. Finding NTAG chips inside electric toothbrush heads opens up bizarre authentication avenues.",
+   "dept": "from the dental security dept.",
+   "summary": "After discovering that replaceable Philips Sonicare toothbrush heads contain NFC chips tracking wear and runtime, a maker used an ESP32-S3 and an NFC reader to write custom data and unlock an Apple MacBook."
+  },
+  {
+   "id": "273a504888d1",
+   "feed": "kk",
+   "title": "Sue Metal T-Rex Statue in Faith, South Dakota",
+   "link": "https://www.atlasobscura.com/places/sue-metal-t-rex-statue",
+   "date": "2026-11-14T18:37:54+00:00",
+   "category": "Curious Discoveries",
+   "source": "atlasobscura.com",
+   "image": "https://img.atlasobscura.com/NAp92Yf-8hkCBA-795J-nH64wtU0y2s4qRVQ7Csa27g/rs:fill:300:200:1/g:ce/c:2480:1653:nowe:1169:267/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy84YmNk/MjU2YS04NGEyLTQx/MjYtYjdjMy1iMDVl/ZTgxNDdmNGFiNWJh/MDgxODU4YzM4NDI1/MDhfMzg0MHB4LVQt/UmV4X19TdWVfLmpw/Zw.jpg",
+   "why": "Public art built from agricultural salvage honoring one of history's most famous dinosaur discoveries makes for delightful roadside Americana. It ties local pride directly back to earth science history.",
+   "dept": "from the scrap-metal paleontology dept.",
+   "summary": "A life-size Tyrannosaurus rex sculpture constructed from recycled tractors and farm equipment stands in Faith, South Dakota, honoring the discovery of Sue, the largest and most complete T. rex fossil found in the US."
+  },
+  {
+   "id": "0fa289758a45",
+   "feed": "kk",
+   "title": "A Literary Map of the United States",
+   "link": "https://kottke.org/26/11/a-literary-map-of-the-united-states",
+   "date": "2026-11-14T18:36:54+00:00",
+   "category": "Wildcard",
+   "source": "kottke.org",
+   "image": "",
+   "why": "Mapping imaginary literary settings alongside real geography provides a whimsical lens on American literature. It treats fictional landscapes like Lake Wobegon and Sleepy Hollow as genuine cartographic points of interest.",
+   "dept": "from the imaginative geography dept.",
+   "summary": "A literary map of America highlights both real and imaginary settings from hundreds of books, tracking fictional locations like Lake Wobegon, Sleepy Hollow, and F. Scott Fitzgerald's East Egg."
   },
   {
    "id": "e4e69cfda7a6",
