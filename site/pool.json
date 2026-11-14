@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T22:57:33+00:00",
+ "generated": "2026-11-14T01:22:53+00:00",
  "feeds": [
   {
    "id": "neat",
@@ -1574,6 +1574,84 @@
    "why": "Cryptarithms usually stop at SEND + MORE = MONEY. This one strings together a whole rambling sentence about a man trying to meet a team on the moon, and somehow every letter still maps to a single consistent digit. Futility Closet kindly prints the answer, which is the only sane approach.",
    "dept": "from the so-many-more-men dept.",
    "summary": "Futility Closet shares a huge letter-arithmetic puzzle devised by Anton Pavlis of Guelph, Ontario, in which 41 words are added together to spell TESTS. Each letter stands for one digit throughout, and the post gives the full numeric solution."
+  },
+  {
+   "id": "e4e69cfda7a6",
+   "feed": "kk",
+   "title": "Running the X Window System on an ESP32 Microcontroller",
+   "link": "https://hackaday.com/2026/11/13/x-window-system-on-the-esp32/",
+   "date": "2026-11-14T00:53:31+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2026/11/WoodlandX11_d196a1.jpg",
+   "why": "Bringing a vintage X11 server to a tiny microcontroller with an IPS panel proves that some architectures simply refuse to die. It is a wonderfully quirky hardware hack that reminds us how lightweight old protocols can be when paired with modern embedded chips.",
+   "dept": "from the window manager dept.",
+   "summary": "Developers have successfully ported a core X Window System server, Woodland X11, to run on an ESP32-S3 microcontroller paired with a touch display. While it skips extensions and keyboards, it handles classic X applications like xclock and xeyes with surprising smoothness over a wired or Wi-Fi network connection."
+  },
+  {
+   "id": "34654a0b0cf5",
+   "feed": "kk",
+   "title": "Astrophysicists Cross Stupendously Large Black Holes Off the Dark Matter List",
+   "link": "https://www.universetoday.com/articles/astrophysicists-cross-another-dark-matter-candidate-off-their-list-stupendously-large-black-holes",
+   "date": "2026-11-14T00:52:31+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/08_PRISMA_PI_stupendous_black_holes_20261113_200612.jpg",
+   "why": "Ruling out another hypothetical candidate brings researchers one step closer to solving one of physics' greatest enduring mysteries. It is a great example of how modern observational constraints continue to narrow down the viable parameter space for dark matter.",
+   "dept": "from the cosmic ledger dept.",
+   "summary": "New research indicates that primordial black holes known as SLABs, or Stupendously Large Black Holes, cannot account for the universe's missing dark matter. Astrophysicists continue ruling out exotic theoretical candidates as they search for the true nature of dark matter."
+  },
+  {
+   "id": "c3e5562e221a",
+   "feed": "kk",
+   "title": "LOFAR Delivers the Deepest Low-Frequency Radio Image of the Sky",
+   "link": "https://www.universetoday.com/articles/lofar-takes-the-deepest-image-of-the-low-frequency-radio-sky-to-date",
+   "date": "2026-11-14T00:51:31+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/image_9980e-LOFAR-Galaxies_20261113_212839.jpg",
+   "why": "High-resolution radio astronomy opens a fascinating window into the early universe by capturing subtle signals that optical telescopes miss. This milestone highlights the power of international telescope arrays in mapping our cosmic neighborhood.",
+   "dept": "from the low-frequency wavelengths dept.",
+   "summary": "An international team using the Low Frequency Array has produced the sharpest and most sensitive radio image of the low-frequency sky to date. The detailed survey reveals new insights into galactic structures and cosmic evolution across distant epochs."
+  },
+  {
+   "id": "49b51145f5a6",
+   "feed": "kk",
+   "title": "Fixing a Dead Socket LGA 1851 Motherboard with a Single Resistor",
+   "link": "https://hackaday.com/2026/11/13/fixing-a-dead-socket-lga-1851-mainboard-with-a-resistor/",
+   "date": "2026-11-14T00:50:31+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "",
+   "why": "Board-level hardware repair requires genuine detective work, logic reasoning, and a steady hand with a soldering iron. Tracing power rails to find a missing passive component is a masterclass in modern electronic troubleshooting.",
+   "dept": "from the component-level triage dept.",
+   "summary": "A hardware troubleshooter successfully resurrected a complex Socket LGA 1851 motherboard by tracing power rails and discovering a single missing 5.1 Ohm resistor on an SPI clock line. The repair demonstrates the meticulous methodology required for diagnosing modern multi-phase motherboards."
+  },
+  {
+   "id": "8e3a02a4d03d",
+   "feed": "kk",
+   "title": "Hera Spacecraft Peeks at Asteroid Moonlet After DART Impact",
+   "link": "https://skyandtelescope.org/astronomy-news/spacecraft-investigates-asteroid-after-impact/",
+   "date": "2026-11-14T00:49:31+00:00",
+   "category": "Astronomy and Space",
+   "source": "skyandtelescope.org",
+   "image": "",
+   "why": "Following up on humanity's first planetary defense test with dedicated spacecraft observations turns science fiction into rigorous planetary science. It offers a rare chance to study how an asteroid's morphology changed after a high-speed collision.",
+   "dept": "from the kinetic impact aftermath dept.",
+   "summary": "Europe's Hera spacecraft has arrived at the Dimorphos-Didymos asteroid system to conduct a detailed close-up investigation following NASA's DART kinetic impact test. The mission will measure the structural aftermath and surface changes resulting from the collision."
+  },
+  {
+   "id": "42d36aa361a3",
+   "feed": "kk",
+   "title": "The Areni-1 Cave Shoe Survives in Pristine Condition",
+   "link": "https://www.atlasobscura.com/places/the-areni-1-cave-shoe",
+   "date": "2026-11-14T00:48:31+00:00",
+   "category": "Curious Discoveries",
+   "source": "atlasobscura.com",
+   "image": "https://img.atlasobscura.com/vPVzGzynJOHdEtndzfMpkQqokYpoN8zspgYjZPUpFgA/rs:fill:300:200:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9kZTMx/ZmNiNS05Nzk5LTQy/OTAtYmYyOS01NjAw/M2YwYTZiM2VmM2Yx/MmU2MjgwY2E0Zjky/MjBfNzI3NzYuanBn.jpg",
+   "why": "Finding exceptionally preserved organic artifacts from over five millennia ago offers an intimate glimpse into prehistoric daily life. The accidental preservation by animal dung layers is a delightful quirk of archaeological luck.",
+   "dept": "from the ancient footwear dept.",
+   "summary": "Discovered in a cool, dry cave environment sealed by layers of sheep dung, a 5,600-year-old leather shoe remains in near-perfect condition. Crafted from a single piece of cowhide and stuffed with grass, the ancient footwear provides a tangible link to Chalcolithic civilization."
   },
   {
    "id": "dcaeed5ca35e",
