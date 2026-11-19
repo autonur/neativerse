@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:34:57+00:00",
+ "generated": "2026-11-19T21:06:03+00:00",
  "feeds": [
   {
    "id": "neat",
@@ -1576,6 +1576,97 @@
    "summary": "MEUTE is a German group that performs techno and house tracks on acoustic instruments in marching-band style: tubas, trombones, saxophones, percussion and more. The new single comes from their latest album, Kosmos."
   },
   {
+   "id": "85465188807d",
+   "feed": "kk",
+   "title": "El Niño Rains Transform the Arid Atacama Desert",
+   "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
+   "date": "2026-11-19T20:57:17+00:00",
+   "category": "Astronomy and Space",
+   "source": "science.nasa.gov",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/el-niño-rains-paint-the-atacama/atacamabloom_oli_20260914.jpg",
+   "why": "Following an unusually wet winter in late 2026, satellite imaging captures rare, widespread blooming across parts of the Atacama Desert normally known as one of the driest places on Earth. It is a striking look at how climate cycles awaken dormant seeds on a massive scale.",
+   "dept": "from the orbital observation dept.",
+   "summary": "Landsat data reveals vibrant bands of red-purple, green, and white across northern Chile's Atacama Desert following heavy El Niño rains. The moisture triggered what scientists suspect is one of the most extensive desert blooms in recent years."
+  },
+  {
+   "id": "d99cb1c60fc4",
+   "feed": "kk",
+   "title": "Computer Simulations Explain James Webb's 'Little Red Dots'",
+   "link": "https://www.universetoday.com/articles/computer-simulations-provide-the-best-explanation-for-those-little-red-dots-yet",
+   "date": "2026-11-19T20:56:17+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/littlereddots_1_20260727_200136_20261117_224922.jpg",
+   "why": "The mysterious compact red galaxies spotted by the James Webb Space Telescope have puzzled astronomers since their discovery. New computer models offer a compelling explanation, suggesting they are the remnants of massive primordial stars.",
+   "dept": "from the primordial puzzle dept.",
+   "summary": "Researchers using advanced computer simulations have found that the enigmatic 'Little Red Dot' galaxies discovered by JWST are likely the remains of supermassive primordial stars shrouded in dense gaseous envelopes."
+  },
+  {
+   "id": "a6448914f490",
+   "feed": "kk",
+   "title": "Handheld Brushless Motor Gimbal Cancels Motion in Real-Time",
+   "link": "https://hackaday.com/2026/11/18/handheld-motor-cancels-out-every-twist-and-turn/",
+   "date": "2026-11-19T20:55:17+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2026/11/CAN-do-GYRO-0-7-screenshot.png",
+   "why": "Combining a tiny STM32 microcontroller board with a brushless motor creates an impressive one-axis gimbal that stabilizes against physical twists in real time. It is a neat hardware project that demonstrates the responsiveness of tight control loops.",
+   "dept": "from the microcontroller wizardry dept.",
+   "summary": "A developer built a compact handheld gimbal using an STM32-based microcontroller and a brushless motor with a CAN interface. The device tracks motion across three dimensions and actively compensates for disturbances within a fraction of a rotation."
+  },
+  {
+   "id": "6c50feffe276",
+   "feed": "kk",
+   "title": "How Hough Transforms Help Computers See Lines in Noise",
+   "link": "https://hackaday.com/2026/11/18/how-hough-transforms-enable-computers-to-see/",
+   "date": "2026-11-19T20:54:17+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2026/11/hough_transform_the_synthetic_mind_youtube.jpg",
+   "why": "Understanding the foundational algorithms behind computer vision is always worthwhile for software engineers. This deep dive looks at how Paul Hough's 1960s feature extraction method evolved from bubble chamber particle tracking into modern automated line detection.",
+   "dept": "from the computer vision dept.",
+   "summary": "A detailed technical video explores the Hough Transform, an edge-detection and feature-extraction algorithm originally developed for analyzing bubble chamber photographs. The piece breaks down how mathematical transformations allow computer vision systems to pick out patterns from complex visual scenes."
+  },
+  {
+   "id": "f7c981abcd90",
+   "feed": "kk",
+   "title": "Atmospheric River Lashes California with Record Rainfall",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOVN1OENIT3BDVWc1bzJ4QU53SUQyV201aUJsWVlnYV82ZnZ1OXB4R0pDdW8wU0E0SnhyWFQwenV3aFppa1NZX3l4bk15TTRjVWhDcV9ZM3BzWGQ2Z1BVUF9CdW9CaERORkJlVEtxQ21aWnpnZWpKZmhsQXRYMjdrMGNGVi14TXBaVEZ6OWJB?oc=5",
+   "date": "2026-11-19T20:53:17+00:00",
+   "category": "Weather & Meteorology",
+   "source": "news.google.com",
+   "image": "",
+   "why": "Major moisture plumes consistently test regional infrastructure and forecasting precision along the West Coast. This storm system brought notable precipitation totals and rare tornado warnings to parts of the San Francisco Bay area.",
+   "dept": "from the atmospheric moisture dept.",
+   "summary": "A potent atmospheric river swept across California's Bay Area, delivering record-breaking rainfall and gusty winds. The severe weather prompted local emergency responses and rare tornado alerts along the coast."
+  },
+  {
+   "id": "3ed7760e5444",
+   "feed": "kk",
+   "title": "NASA Launches Mid-Power Electric Rocket Challenge for U.S. Firms",
+   "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-announces-mid-power-electric-rocket-challenge-for-us-companies/",
+   "date": "2026-11-19T20:52:17+00:00",
+   "category": "Astronomy and Space",
+   "source": "nasa.gov",
+   "image": "https://www.nasa.gov/wp-content/uploads/2023/03/hall-thruster.jpg?w=1041",
+   "why": "Hall effect thrusters offer immense efficiency gains over chemical rockets for long-duration space missions. NASA's new competition aims to push commercial prototyping forward for future deep-space and satellite operations.",
+   "dept": "from the ion propulsion dept.",
+   "summary": "NASA has initiated a new challenge inviting domestic companies to design mid-power Hall effect thruster prototypes. These electric propulsion systems use magnetic and electric fields to accelerate propellant gas, achieving far greater efficiency than standard chemical rockets."
+  },
+  {
+   "id": "1a15e558c019",
+   "feed": "kk",
+   "title": "Microsoft Announces Enterprise Context Platform Microsoft IQ",
+   "link": "https://azure.microsoft.com/en-us/blog/introducing-the-new-microsoft-iq-putting-your-organizations-intelligence-to-work-in-every-agent/",
+   "date": "2026-11-19T20:51:17+00:00",
+   "category": "DotNet and Development",
+   "source": "azure.microsoft.com",
+   "image": "",
+   "why": "As agentic systems become more prevalent, managing proprietary organizational context securely across multi-agent workflows is a critical infrastructure challenge. This Ignite 2026 announcement introduces a platform specifically designed to feed institutional data into AI models safely.",
+   "dept": "from the enterprise architecture dept.",
+   "summary": "At Microsoft Ignite, the company introduced Microsoft IQ, an enterprise context management platform designed to integrate organizational data, communications, and workflows into AI agents. The system aims to ground foundational models in proprietary corporate intelligence."
+  },
+  {
    "id": "cc52b89044b0",
    "feed": "kk",
    "title": "APOD: The Horsehead and Flame Nebulas",
@@ -3043,97 +3134,6 @@
    "why": "Reaching a distance where radio signals take 24 hours to make a one-way trip is a mind-boggling milestone for humanity's most distant emissary. NASA's celebration of Voyager 1's historic 50-year journey offers a wonderful moment to reflect on interstellar operations.",
    "dept": "from the deep-space-signal dept.",
    "summary": "Nearly 50 years after its launch in 1977, Voyager 1 is set to cross the one light-day distance threshold, sitting more than 16 billion miles away from Earth. NASA is marking the historic interplanetary milestone with public engagement events and global participation."
-  },
-  {
-   "id": "fb121ffe0c0d",
-   "feed": "kk",
-   "title": "First Direct Measurement of Cosmic Hydrogen Mapping the Universe",
-   "link": "https://www.universetoday.com/articles/breakthrough-cosmic-hydrogen-measurement-could-transform-our-view-of-the-universe",
-   "date": "2026-11-11T17:29:25+00:00",
-   "category": "Astronomy and Space",
-   "source": "universetoday.com",
-   "image": "https://www.universetoday.com/article_images/demo_sky_image_20261110_185831.png",
-   "why": "Radio astronomy breakthroughs that give us a new handle on large-scale cosmic structure are always worth highlighting. The MeerKLASS collaboration's work offers a concrete look at how direct hydrogen mapping will change cosmological surveys.",
-   "dept": "from the neutral-gas dept.",
-   "summary": "The international MeerKLASS collaboration has achieved the first direct measurement of the large-scale clustering of cosmic hydrogen in the universe. The breakthrough technique promises to open new ways for astronomers to map cosmic structure and galaxy evolution."
-  },
-  {
-   "id": "9419058507d0",
-   "feed": "kk",
-   "title": "Announcing .NET 11",
-   "link": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
-   "date": "2026-11-10T23:18:38+00:00",
-   "category": "DotNet and Development",
-   "source": "devblogs.microsoft.com",
-   "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/announcing-dotnet-11-scaled.webp",
-   "why": "The latest major .NET release has arrived with hundreds of runtime performance boosts, C# language updates, and enhanced tooling. It is a Standard Term Support release aimed at making cross-platform and cloud development smoother.",
-   "dept": "from the runtime optimization dept.",
-   "summary": "Microsoft officially launched .NET 11, bringing speed improvements across C# 15, ASP.NET Core, and .NET MAUI. The new version features streamlined SDK tooling and expanded capabilities for agentic and AI-assisted development workflows."
-  },
-  {
-   "id": "328f02416854",
-   "feed": "kk",
-   "title": ".NET and .NET Framework November 2026 Servicing Updates",
-   "link": "https://devblogs.microsoft.com/dotnet/dotnet-and-dotnet-framework-november-2026-servicing-updates/",
-   "date": "2026-11-10T23:17:38+00:00",
-   "category": "DotNet and Development",
-   "source": "devblogs.microsoft.com",
-   "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/net-net-framework-november-2026.webp",
-   "why": "Staying on top of monthly servicing releases is essential for maintaining production security across multiple target frameworks. This month addresses key elevation of privilege and denial of service vulnerabilities.",
-   "dept": "from the critical patch dept.",
-   "summary": "Microsoft released its November 2026 security and non-security updates for .NET 8, 9, 10, and 11. Administrators should review the advisories for CVE-2026-114146 and related patches to apply necessary remediation guidance."
-  },
-  {
-   "id": "343816987cd2",
-   "feed": "kk",
-   "title": "Automated Assembly in Space Is the Future and NOM4D Is Showing the Way",
-   "link": "https://www.universetoday.com/articles/automated-assembly-in-space-is-the-future-and-nom4d-is-showing-the-way",
-   "date": "2026-11-10T23:16:38+00:00",
-   "category": "Astronomy and Space",
-   "source": "universetoday.com",
-   "image": "https://www.universetoday.com/article_images/program-darpa-nom4d-phase-3_20261110_173344.jpg",
-   "why": "Moving past pre-constructed station modules requires entirely new robotic assembly techniques for large structures in orbit. Programs like NOM4D are proving that simple automated systems can successfully build trusses from component parts.",
-   "dept": "from the orbital construction dept.",
-   "summary": "A new space construction program called NOM4D demonstrated that autonomous robots can successfully assemble truss-like structures in space using premade components. This milestone marks a step forward in our ability to fabricate large infrastructure directly in orbit."
-  },
-  {
-   "id": "5ce63d9f1843",
-   "feed": "kk",
-   "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-   "link": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-   "date": "2026-11-10T23:15:38+00:00",
-   "category": "Astronomy and Space",
-   "source": "science.nasa.gov",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/ciencia/2023/06/s/stsci-j-p2223a_0.jpeg?w=2048&h=1593&fit=clip&crop=faces%2Cfocalpoint",
-   "why": "Combining gravitational wave astronomy with exoplanet hunting opens up an entirely novel way to detect distant worlds. Upcoming observatories like LISA could soon spot planets orbiting tightly bound white dwarf systems thousands of light-years away.",
-   "dept": "from the spacetime ripples dept.",
-   "summary": "Recent studies led by NASA astrophysicists detail how the upcoming LISA gravitational wave observatory could detect exoplanets throughout our galaxy. By analyzing how a planet modifies gravitational wave signals from orbiting white dwarfs, astronomers can spot unseen worlds."
-  },
-  {
-   "id": "d3a2f1af039c",
-   "feed": "kk",
-   "title": "Rigel and the Witch Head Nebula",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
-   "date": "2026-11-10T23:14:38+00:00",
-   "category": "Astrophotography",
-   "source": "science.nasa.gov",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/WitchHead_Czerski_3000.jpg",
-   "why": "Reflection nebulae illuminated by bright supergiants always provide stunning visual targets for astrophotographers. IC 2118 near Rigel offers a classic case of pareidolia coupled with intricate interstellar dust structures.",
-   "dept": "from the cosmic illusion dept.",
-   "summary": "An astrophotograph captures IC 2118, a faint reflection nebula known popularly as the Witch Head Nebula due to its uncanny resemblance to a caricature. Illuminated by the bright blue supergiant Rigel, the sprawling dust cloud spans about 50 light-years."
-  },
-  {
-   "id": "b2ee513c4291",
-   "feed": "kk",
-   "title": "M. John Harrison’s The End of Everything Wins the Booker Prize",
-   "link": "https://reactormag.com/m-john-harrisons-the-end-of-everything-booker-prize/",
-   "date": "2026-11-10T23:13:38+00:00",
-   "category": "Science Fiction",
-   "source": "reactormag.com",
-   "image": "https://reactormag.com/wp-content/uploads/2026/11/M.-John-Harrison-The-End-of-Everything-740x493.jpg",
-   "why": "It is a rare and welcome event when uncompromising speculative fiction takes home a major mainstream literary prize like the Booker. M. John Harrison's win is a brilliant milestone for imaginative storytelling.",
-   "dept": "from the literary apocalypse dept.",
-   "summary": "M. John Harrison’s post-apocalyptic sci-fi novel The End of Everything has won the prestigious Booker Prize. Set in a bleak, post-collapse England, the book's victory has been widely celebrated across the science fiction community."
   }
  ]
 }
