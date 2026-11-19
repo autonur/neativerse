@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T23:06:20+00:00",
+ "generated": "2026-11-19T03:07:05+00:00",
  "feeds": [
   {
    "id": "neat",
@@ -1574,6 +1574,45 @@
    "why": "Feynman's question is the classic explore-versus-exploit dilemma wearing a napkin: how many dishes do you try before settling on your favourite? The worked answer has a satisfying punchline, once you commit, order that dish every remaining visit. Applicable to kopitiams, record shops and scheduler design alike.",
    "dept": "from the explore-exploit-dessert dept.",
    "summary": "Kottke points to a solution of the Feynman restaurant problem, which asks how many different dishes you should sample at a restaurant to maximise your enjoyment over a fixed number of visits. The answer is to explore for a while, then stick with the best dish found for the rest of your visits."
+  },
+  {
+   "id": "41919e9cfb96",
+   "feed": "kk",
+   "title": "Fermi’s 14-Year All-Sky Map Bridges Astronomy’s Elusive 'MeV Gap'",
+   "link": "https://www.universetoday.com/articles/fermis-14-year-all-sky-map-bridges-astronomys-elusive-mev-gap",
+   "date": "2026-11-19T01:53:08+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/10540_All-sky_comparison_20261118_172312.jpg",
+   "why": "Gamma-ray astronomy has wrestled with the 'MeV gap' blind spot for decades, making this all-sky map a stellar milestone. It highlights how the Fermi Large Area Telescope collaboration successfully pinned down hundreds of low-energy gamma-ray sources.",
+   "dept": "from the high-energy gamma-ray dept.",
+   "summary": "An international group of scientists using data from the Fermi Large Area Telescope collaboration has mapped 450 cosmic sources in the 20-200 mega-electron volt range. This achievement helps bridge astronomy's elusive 'MeV gap' by providing the clearest view yet of low-energy gamma rays."
+  },
+  {
+   "id": "d4b1ba677941",
+   "feed": "kk",
+   "title": "Tracking Down a Mystery Beep By Giving a Coding Agent a Few Ears",
+   "link": "https://hackaday.com/2026/11/18/tracking-down-a-mystery-beep-by-giving-a-coding-agent-a-few-ears/",
+   "date": "2026-11-19T01:52:08+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2026/11/beep-locator-ui-banner.png",
+   "why": "This ingenious project shows how pairing software agents with physical sensors can solve real-world problems. Using web-audio listeners to triangulate an elusive household noise is a wonderfully nerdy engineering win.",
+   "dept": "from the acoustic triangulation dept.",
+   "summary": "Simon Willison recently used a Python web server and web-based audio listeners scattered around a room to help a coding agent triangulate an intermittent, mysterious beep. By leveraging the Web Audio API on spare devices, the system successfully located a buried carbon monoxide detector emitting a low-battery chirp."
+  },
+  {
+   "id": "aee9b8fbcd38",
+   "feed": "kk",
+   "title": "The Simons Observatory is Online and Surveying the Cosmic Microwave Background",
+   "link": "https://www.universetoday.com/articles/the-simons-observatory-is-online-and-surveying-the-cosmic-microwave-background",
+   "date": "2026-11-19T01:51:08+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/Inside1_LAT_night_c.David-Boettger-1-1440x960_20261118_191834.jpg",
+   "why": "The Simons Observatory brings unprecedented precision to our study of the early universe. Searching for tiny fluctuations tied to primordial gravitational waves gets us closer than ever to observational evidence of the Big Bang.",
+   "dept": "from the primordial microwave dept.",
+   "summary": "The Simons Observatory has officially come online to survey the Cosmic Microwave Background with greater detail than ever before. The project aims to detect tiny fluctuations caused by primordial gravitational waves, offering potential slam-dunk evidence for the Big Bang."
   },
   {
    "id": "96da994375e6",
