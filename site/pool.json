@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T11:16:05+00:00",
+ "generated": "2026-11-19T13:34:57+00:00",
  "feeds": [
   {
    "id": "neat",
@@ -1576,6 +1576,110 @@
    "summary": "MEUTE is a German group that performs techno and house tracks on acoustic instruments in marching-band style: tubas, trombones, saxophones, percussion and more. The new single comes from their latest album, Kosmos."
   },
   {
+   "id": "cc52b89044b0",
+   "feed": "kk",
+   "title": "APOD: The Horsehead and Flame Nebulas",
+   "link": "https://science.nasa.gov/image-article/apod-2026-november-19-the-horsehead-and-flame-nebulas/",
+   "date": "2026-11-19T13:06:24+00:00",
+   "category": "Astronomy and Space",
+   "source": "science.nasa.gov",
+   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Horsehead_Nebula_Killion.jpg?w=6000&h=4800&fit=clip",
+   "why": "A stunning look at the iconic Orion Belt region featuring blue Alnitak and the famous dark dust cloud. It's a gorgeous reminder of the complex chemistry sculpting our galaxy.",
+   "dept": "from the stellar nursery dept.",
+   "summary": "Today's Astronomy Picture of the Day highlights the Horsehead and Flame Nebulas, showcasing the brilliant blue triple star Alnitak alongside intricate dark molecular clouds."
+  },
+  {
+   "id": "ba69bbb8b6be",
+   "feed": "kk",
+   "title": "Are Uranus and Neptune Secretly 'Rock Giants'?",
+   "link": "https://www.universetoday.com/articles/are-uranus-and-neptune-secretly-rock-giants-a-noble-gas-might-hold-the-answer",
+   "date": "2026-11-19T13:05:24+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/Uranus_and_Neptune_20261118_191039.jpg",
+   "why": "Investigating whether our solar system's ice giants actually harbor massive rocky cores beneath their crushing atmospheres helps refine planetary formation models.",
+   "dept": "from the ice giant interior dept.",
+   "summary": "A new paper suggests that measuring isotopes of noble gases like argon-40 could reveal whether Uranus and Neptune contain hidden mountains of rock deep beneath their thick mantles."
+  },
+  {
+   "id": "12ed610e5fb5",
+   "feed": "kk",
+   "title": "Coronal Hole and CME Combo Threatens Mid-Latitude Aurora",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVjVoMC1KSFV5cU1WZUlwZkd2YnBFWENWcGFvdjV5ZWFKN2pKZTFtbmJldlpHR09HY092aGk5N3VJSzVlRUNMREQtTFJhZ2I0bFRqRVBpeGFUR25SM0d5VDAyZTF3VEFHaFBMUThrQWNTYTFaZVlWUVg5b2pPTUlRQmdyRUwydElzcHlwRDRKTGpWWVVVN3c3V0dNUW5XM1ozNW1YcGxMY2p4VW52ejljS0Y5TWFpNk82VWVtbg?oc=5",
+   "date": "2026-11-19T13:04:24+00:00",
+   "category": "Space Weather and Aurora",
+   "source": "news.google.com",
+   "image": "",
+   "why": "Combining coronal hole streams with coronal mass ejections frequently delivers fantastic high-latitude and mid-latitude auroral displays for backyard observers.",
+   "dept": "from the geomagnetic disturbance dept.",
+   "summary": "Forecasters report that a combined coronal hole and CME solar driver could trigger visible northern light displays across parts of the United States."
+  },
+  {
+   "id": "d895618af59c",
+   "feed": "kk",
+   "title": "Rare Waterspouts Sweep San Francisco Bay Amid El Niño Rains",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMHl1QldMOGlKTnlIaEpWTGZ1YVF2ZjJXdWJuWnFjU1NXMHhZR3MzZVZab1pLOXoydjVER0pOUEpEbWdEXzBFYXhiUGFnVnVHdTNDZDExOHlLcFJJSzZKQnhkSG9KVXhackpIcXNpa1dEd1FtY2FQRjNWeVRzcWQzb2EybFd2bkpVUmtnUXh5LVQ5TUpSNDRqS3lQQ0w5OEFnQU1pZjgtQjNub2PSAbABQVVfeXFMTTlMNlBic2cwRnZ5TzRqZF9jT19UUW1jLXFxOGwtX1dUdXk2RkZVVzRUb2dENUFoZ0JCSjg5cHBveWpnbzNjRE1CVnRmN1pVOVRmSnlGWDg4c25lWElRdHRHU0J3R00tUEJxX2g3Nk9YZUVBd0R0UVhqUk1XMTNjZXgxQWMtcmwtNDFjdVJJZlhrTXFuUEt0Yi0teGg5WTg5R01lS2J6WVFhN1RTcnhRZ2Q?oc=5",
+   "date": "2026-11-19T13:03:24+00:00",
+   "category": "Weather & Meteorology",
+   "source": "news.google.com",
+   "image": "",
+   "why": "Unusual meteorological events like bay waterspouts underscore the intense localized impact active El Niño moisture plumes bring to coastal regions.",
+   "dept": "from the atmospheric dynamics dept.",
+   "summary": "Rare waterspouts formed over the San Francisco Bay as a potent atmospheric river fueled heavy downpours and stormy conditions across Northern California."
+  },
+  {
+   "id": "36051185d786",
+   "feed": "kk",
+   "title": "Mesh2Cad Automates the Pain of Re-Modelling STLs",
+   "link": "https://hackaday.com/2026/11/19/mesh2cad-automates-re-modelling/",
+   "date": "2026-11-19T13:02:24+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2026/11/mesh2cad_before_after.png",
+   "why": "Converting messy polygon meshes into clean, parametric CAD files is a universal headache for makers and engineers trying to modify existing prints.",
+   "dept": "from the solid modeling dept.",
+   "summary": "A new open-source Python tool called Mesh2Cad translates 3D meshes into parametric formats compatible with FreeCAD, STEP, and OpenSCAD by approximating geometries within user-defined tolerances."
+  },
+  {
+   "id": "8019d11430dc",
+   "feed": "kk",
+   "title": "Microsoft Ignite 2026 Spotlights AI-Driven Azure Infrastructure",
+   "link": "https://azure.microsoft.com/en-us/blog/microsoft-ignite-2026-whats-new-in-azure-the-platform-purpose-built-for-ai/",
+   "date": "2026-11-19T13:01:24+00:00",
+   "category": "DotNet and Development",
+   "source": "azure.microsoft.com",
+   "image": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2026/11/Azure-Failure-Prediction-Detection-1.jpg",
+   "why": "As agentic workloads demand more from hardware and databases, announcements around custom silicon like Cobalt 200 VMs show how cloud platforms are adapting.",
+   "dept": "from the cloud architecture dept.",
+   "summary": "Microsoft's Ignite conference rolled out major updates for Azure, including general availability for high-performance Cobalt 200 virtual machines, new PostgreSQL database engines for AI, and agentic orchestration tools."
+  },
+  {
+   "id": "e0a05b9dadd0",
+   "feed": "kk",
+   "title": "Wax: Revisit the 1991 Beekeeping Art Film That Streamed Early",
+   "link": "https://reactormag.com/wax-a-trippy-art-film-about-transcending-time-and-space-and-beekeeping/",
+   "date": "2026-11-19T13:00:24+00:00",
+   "category": "Science Fiction",
+   "source": "reactormag.com",
+   "image": "https://reactormag.com/wp-content/uploads/2026/11/Wax-or-the-discovery-of-television-among-the-bees-header-740x423.png",
+   "why": "Looking back at David Blair's experimental cyber-film offers a fascinating glimpse into early digital art and pre-web streaming culture.",
+   "dept": "from the digital antiquity dept.",
+   "summary": "David Blair's experimental 1991 film 'Wax, or the Discovery of Television Among the Bees' combined early computer graphics and nonlinear storytelling in a pioneering digital broadcast."
+  },
+  {
+   "id": "b260be86bc16",
+   "feed": "kk",
+   "title": "Binh Lam Champa Tower Rises from Vietnamese Lowlands",
+   "link": "https://www.atlasobscura.com/places/binh-lam-champa-tower",
+   "date": "2026-11-19T12:59:24+00:00",
+   "category": "Curious Discoveries",
+   "source": "atlasobscura.com",
+   "image": "https://img.atlasobscura.com/_UxuNX3s5t0Z0WsHMPKB3zGa3Cf94X7URvMb-L7hE9Q/rs:fill:300:200:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9jMzY0/MGY0MS1kY2VhLTQ5/NDEtYjgxMy04NTY5/YjQxMzI1MWU2YmIz/MWFjNThmMmIxMDkx/NmRfSU1HLTIwMjYx/MDAzLVdBMDAwNS5q/cGc.jpg",
+   "why": "Most ancient Cham towers perch on dramatic hills, making this lowland brick sanctuary with hidden subterranean archaeology a unique architectural puzzle.",
+   "dept": "from the ancient masonry dept.",
+   "summary": "Constructed between the late tenth and eleventh centuries, the 20-meter Binh Lam Tower in Vietnam serves as an architectural bridge featuring subtle vertical pilasters and hidden subterranean ruins."
+  },
+  {
    "id": "41919e9cfb96",
    "feed": "kk",
    "title": "Fermi’s 14-Year All-Sky Map Bridges Astronomy’s Elusive 'MeV Gap'",
@@ -3030,19 +3134,6 @@
    "why": "It is a rare and welcome event when uncompromising speculative fiction takes home a major mainstream literary prize like the Booker. M. John Harrison's win is a brilliant milestone for imaginative storytelling.",
    "dept": "from the literary apocalypse dept.",
    "summary": "M. John Harrison’s post-apocalyptic sci-fi novel The End of Everything has won the prestigious Booker Prize. Set in a bleak, post-collapse England, the book's victory has been widely celebrated across the science fiction community."
-  },
-  {
-   "id": "c1fc6244f677",
-   "feed": "kk",
-   "title": "Do AI Coding Agents Care About SemVer?",
-   "link": "https://devblogs.microsoft.com/blog/do-ai-coding-agents-care-about-semver/",
-   "date": "2026-11-10T23:12:38+00:00",
-   "category": "AI and Agents",
-   "source": "devblogs.microsoft.com",
-   "image": "https://devblogs.microsoft.com/wp-content/uploads/2026/11/Agent-Experience_-SemVer-and-Agent-Behavior.webp",
-   "why": "This is a clever piece of practical engineering research that tests an assumption about how autonomous agents interact with codebases. It turns out that version numbers still act as a subtle psychological nudge even for LLMs.",
-   "dept": "from the semantic versioning dept.",
-   "summary": "Microsoft researchers tested whether AI coding agents pay attention to semantic versioning when upgrading dependencies. Surprisingly, experiments revealed that version numbers alone changed how models handled byte-identical code modifications."
   }
  ]
 }
