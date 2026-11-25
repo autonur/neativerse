@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T11:23:55+00:00",
+ "generated": "2026-11-25T21:46:12+00:00",
  "feeds": [
   {
    "id": "neat",
@@ -1576,6 +1576,84 @@
    "summary": "Researchers have described a new species of the early toothed whale Ankylorhiza from roughly 28-million-year-old rocks near Charleston. Its teeth carry serrated edges, a feature never seen before in a toothed whale, which points to a predator that sliced up large prey."
   },
   {
+   "id": "c3862d918636",
+   "feed": "kk",
+   "title": "The Physics Wall Facing Orbital AI Data Centers",
+   "link": "https://www.universetoday.com/articles/the-physics-wall-facing-orbital-ai-data-centers",
+   "date": "2026-11-25T20:36:55+00:00",
+   "category": "Astronomy and Space",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/ISS-54_ELC-1_main_solar_arrays_and_radiators_seen_from_the_Cupola_20261125_193647.jpg",
+   "why": "While tech companies frequently tout the boundless energy of space for orbital AI data centers, a new preprint paper highlights the harsh physical constraints that make such ambitions impractical for the foreseeable future. Grounded engineering analysis offers a refreshing dose of reality against speculative industry hype.",
+   "dept": "from the back-of-the-envelope-math dept.",
+   "summary": "A new paper by Dr. Slava Turyshev of NASA’s Jet Propulsion Laboratory examines the physical hurdles facing orbital AI data centers. While the math might look good on paper, utilizing the Sun's free energy and processing power in space involves prohibitive constraints that will take a long time to overcome."
+  },
+  {
+   "id": "69285e82415f",
+   "feed": "kk",
+   "title": "Novel Experiments Expand the Hunt for ‘Ultralight’ Dark Matter",
+   "link": "https://www.quantamagazine.org/novel-experiments-expand-the-hunt-for-ultralight-dark-matter-20261125/",
+   "date": "2026-11-25T20:35:55+00:00",
+   "category": "Astronomy and Space",
+   "source": "quantamagazine.org",
+   "image": "https://www.quantamagazine.org/wp-content/uploads/2026/11/UltralightDarkMatter-crCelsiusPictor-Default.webp",
+   "why": "Dark matter remains one of the most compelling mysteries in modern astrophysics, and expanding the search into ultralight candidates showcases the clever experimental setups physicists use to probe the unseen universe.",
+   "dept": "from the invisible-universe dept.",
+   "summary": "Nearly a century after Fritz Zwicky and Vera Rubin established the case for dark matter, modern researchers are deploying novel experimental approaches to hunt for hypothetical ultralight dark matter particles, continuing our quest to understand what makes up the vast majority of the cosmos."
+  },
+  {
+   "id": "2c8df7195c37",
+   "feed": "kk",
+   "title": "The Curious Case of the Second Spacebar",
+   "link": "https://hackaday.com/2026/11/25/the-curious-case-of-the-second-spacebar/",
+   "date": "2026-11-25T20:34:55+00:00",
+   "category": "DotNet and Development",
+   "source": "hackaday.com",
+   "image": "https://hackaday.com/wp-content/uploads/2026/11/Wait-.-what_-Why-is-there-an-extra-spacebar_-40-22-screenshot-banner.png",
+   "why": "Hardware modding stories from decades past provide a wonderful window into how early computer hobbyists adapted their machines before standard peripherals settled into today's uniform layouts.",
+   "dept": "from the retro-hardware-hacking dept.",
+   "summary": "A retrocomputing enthusiast recently investigated a heavily modified Commodore 64 featuring both an unexplained DIP socket and a mysterious second spacebar above the number row. Reverse engineering revealed the modifications served as a makeshift numeric keypad port and an extra shift key for quick symbol entry."
+  },
+  {
+   "id": "922d5bfa8210",
+   "feed": "kk",
+   "title": "AI is Changing the Cross-Platform Decision Matrix",
+   "link": "https://devblogs.microsoft.com/dotnet/ai-cross-platform-decision-matrix/",
+   "date": "2026-11-25T20:33:55+00:00",
+   "category": "DotNet and Development",
+   "source": "devblogs.microsoft.com",
+   "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/11/baristanotes-hero.webp",
+   "why": "Software engineering decisions have historically been bound by team size, knowledge, and maintenance costs. Factoring AI coding assistants into that matrix changes the calculus for cross-platform app development in meaningful ways.",
+   "dept": "from the moving-the-goalposts dept.",
+   "summary": "The factors guiding cross-platform app development decisions—such as team capacity, tech stack familiarity, and maintenance overhead—are evolving. With well-configured AI coding tools and assistants becoming standard parts of the workflow, traditional team knowledge constraints look quite different."
+  },
+  {
+   "id": "d0ba42bea4d3",
+   "feed": "kk",
+   "title": "ALMA Reveals a Dying Star's Final Breath, Encoded In a Giant Ring of Gas",
+   "link": "https://www.universetoday.com/articles/alma-reveals-a-dying-stars-final-breath-encoded-in-a-giant-ring-of-gas",
+   "date": "2026-11-25T20:32:55+00:00",
+   "category": "Astrophotography",
+   "source": "universetoday.com",
+   "image": "https://www.universetoday.com/article_images/IRAS06530-co32-all-ch74to77-ring-pap_20261125_142736.jpg",
+   "why": "Observational astronomy that captures the intricate final stages of stellar evolution offers stunning physical evidence for theoretical models of dying stars.",
+   "dept": "from the stellar-last-gasp dept.",
+   "summary": "Using the ALMA observatory, astronomers have detected a giant ring of gas emitted during a thermal pulse by a dying star 6,500 years ago. This observation provides the first direct evidence supporting theoretical predictions about how these stellar remnants form complex nebulae."
+  },
+  {
+   "id": "d8ff20147494",
+   "feed": "kk",
+   "title": "The Hidden Spiegeltent in Chicago, Illinois",
+   "link": "https://www.atlasobscura.com/places/the-hidden-spiegeltent",
+   "date": "2026-11-25T20:31:55+00:00",
+   "category": "Curious Discoveries",
+   "source": "atlasobscura.com",
+   "image": "https://img.atlasobscura.com/4LesaiZ6APDqv95nL2XO4_wP8xQcfYvo4NBDhuVhZZo/rs:fill:300:200:1/g:ce/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy83YWQw/NjY2Mi00NTlhLTQ0/NGEtYjcwNi01NTZk/MGI1ZGEyYjc4MTY2/NGVlZmE0NzQxMjYw/Y2Nfa2VybWVzcy10/ZW50LWV4dGVyaW9y/LmpwZw.jpg",
+   "why": "Overlooked historical spaces tucked away inside modern or repurposed buildings offer a fascinating glimpse into urban architectural oddities and past eras of entertainment.",
+   "dept": "from the architecture-secrets dept.",
+   "summary": "While traditional Spiegeltents were designed as portable wooden dance halls, the example tucked away on the 14th floor of a Chicago building was constructed entirely indoors in 1926. Originally built as a Masonic hall above a movie palace, it stands as a unique indoor relic of another era."
+  },
+  {
    "id": "3fdd9c47141f",
    "feed": "kk",
    "title": "Sodium Vapor Around Europa Hints at Its Hidden Ocean",
@@ -3056,84 +3134,6 @@
    "why": "Deep-sky astrophotography provides stunning clarity into neighboring galactic structures, showcasing immense stellar associations nestled within spiral arms. Observing formations like NGC 206 bridges the gap between individual star clusters and grand galactic architecture.",
    "dept": "from the deep space imaging dept.",
    "summary": "A sharp, detailed astronomical image highlights NGC 206, a massive stellar association embedded within the dusty spiral arms of the Andromeda galaxy. Located 2.5 million light-years away, the region sits near active pinkish star-forming clouds."
-  },
-  {
-   "id": "5c4a7826af18",
-   "feed": "kk",
-   "title": "National Weather Service Confirms EF-1 Tornado in Delaware",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVkpLeGF3Tlk0anlpNjR5bktNMWVSUFRFcUNfUUxUT3pfMmtUNG9ld0pNY1UzZ0JwLXlUZ1NRWE9YSnh2TjNtcG54emtFQkRId2hWbjRhTXZIa015RFNaLS1rclpHelNHMzlzNU1HcXJ6SktLVW9rQzNpUzU2MDZsS3AwSG8tTVl1YnkzTTNSdVY2dm15cU9zbUFvVUs5S2NWX2JEaXlNeHdWX3pwenY5b2pkbE4xZ0tSNjJSTVZCb01qV2w5S3FCWjd0VVF0Ym9ZWnEzbUFxUnV2dw?oc=5",
-   "date": "2026-11-15T23:54:37+00:00",
-   "category": "Weather & Meteorology",
-   "source": "news.google.com",
-   "image": "",
-   "why": "Severe weather reports benefit from official confirmation and damage surveys rather than speculative hype. Tracking confirmed tornadoes and peak wind paths helps meteorologists understand localized atmospheric anomalies.",
-   "dept": "from the radar and warning dept.",
-   "summary": "The National Weather Service confirmed an EF-1 tornado touched down in Delaware, producing peak damage in Chapman Woods and downing trees and signs. Meteorologists surveyed the path to verify wind speeds and structural impacts."
-  },
-  {
-   "id": "9a39da058d9b",
-   "feed": "kk",
-   "title": "Printing Smooth Upper Surfaces with a Non-Planar Slicer",
-   "link": "https://hackaday.com/2026/11/15/printing-smooth-upper-surfaces-with-a-non-planar-slicer/",
-   "date": "2026-11-15T19:05:39+00:00",
-   "category": "DotNet and Development",
-   "source": "hackaday.com",
-   "image": "https://hackaday.com/wp-content/uploads/2026/11/non-planar_slicer.png",
-   "why": "Non-planar 3D printing offers a fascinating way to bypass traditional stair-step layers by following contoured paths across the print. A new slicer built for standard 3-axis hardware demonstrates how clever path planning can improve surface finish without needing a dedicated multi-axis machine.",
-   "dept": "from the extruder kinematics dept.",
-   "summary": "PancakeSlicer is a new open project designed to generate non-planar toolpaths for standard 3-axis 3D printers. By modifying hardware clearances and rethinking top-layer slicing algorithms, it enables smoother upper surfaces that eliminate the familiar staircase artifact."
-  },
-  {
-   "id": "4d0ab136cdf4",
-   "feed": "kk",
-   "title": "First Foreign Astronaut to Visit China's Tiangong Space Station",
-   "link": "https://www.universetoday.com/articles/the-first-foreign-astronaut-will-visit-chinas-tiangong-space-station-in-two-weeks",
-   "date": "2026-11-15T19:04:39+00:00",
-   "category": "Astronomy and Space",
-   "source": "universetoday.com",
-   "image": "https://www.universetoday.com/article_images/7669676e1891466db2253a58801d0c3c_20261114_220234.jpeg",
-   "why": "International cooperation in low-Earth orbit continues to evolve as national stations welcome visitors from partner space agencies. This upcoming mission marks a notable milestone for Tiangong's expanding operational footprint.",
-   "dept": "from the orbital diplomacy dept.",
-   "summary": "The China Manned Space Agency announced that a Pakistani astronaut will visit the Tiangong space station during the upcoming Shenzhou 24 mission. This flight represents the first time a foreign astronaut has journeyed to the orbital facility."
-  },
-  {
-   "id": "089285d193f9",
-   "feed": "kk",
-   "title": "Major Fireball Meteor Streaks Over the Dolomite Alps",
-   "link": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
-   "date": "2026-11-15T19:03:39+00:00",
-   "category": "Astrophotography",
-   "source": "science.nasa.gov",
-   "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/meteor2017_Taylor_1200.jpg",
-   "why": "Catching a major meteor against alpine twilight requires a blend of fortunate timing and compositional patience. This captured moment highlights the quiet drama of subfreezing night-sky observation.",
-   "dept": "from the atmospheric flashbulb dept.",
-   "summary": "A serendipitous mountaintop photograph taken in the Italian Dolomite Alps captures a bright meteor cutting through the soft pinkish glow of fading twilight. The frozen vista frames the flash against rugged peaks and nestled village lights."
-  },
-  {
-   "id": "c21410f168bd",
-   "feed": "kk",
-   "title": "Writing Your Own PostScript Interpreter from Scratch",
-   "link": "https://hackaday.com/2026/11/14/rpn-loved-honk-if-or-write-your-own-postscript-interpreter/",
-   "date": "2026-11-15T19:02:39+00:00",
-   "category": "DotNet and Development",
-   "source": "hackaday.com",
-   "image": "https://hackaday.com/wp-content/uploads/2026/11/post.png",
-   "why": "Building a minimalist language interpreter is one of the best ways to understand stack-based architecture and parsing. This lightweight implementation recreates the charm of PostScript without the overhead of massive legacy toolchains.",
-   "dept": "from the reverse-polish notation dept.",
-   "summary": "A developer has built a compact PostScript interpreter from scratch to handle stacks, arrays, and dictionaries. While omitting heavy error handling, the project provides a clean, understandable look at the stack-oriented language that once powered laser printers."
-  },
-  {
-   "id": "aaef83d4f245",
-   "feed": "kk",
-   "title": "Minnesota Park Named International Dark Sky Place of the Year",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX3VmRFBGdGFKMF93Z3NFWGxyd1RmdWtMZXAzZno4M3VJdUdNamo1b3dfRW0tUzNRXzJRSGFuYU5kczVNNG9KODJER2RCcmZJMmVuamxRdV90NlpQczhWamx1akM3ZFgwTzBLNFV4QVp5OE9OemRJRFd6d1ZYWW5lZm82bE5LMWg0WHExcmtIclVRTFhLVEZSR0cyWURxc2M?oc=5",
-   "date": "2026-11-15T19:01:39+00:00",
-   "category": "Minnesota and Nature",
-   "source": "news.google.com",
-   "image": "",
-   "why": "Recognizing pristine dark-sky locations helps protect night-sky visibility and local nocturnal ecosystems from encroaching light pollution. Regional successes in dark-sky conservation offer a model for preserving stargazing heritage.",
-   "dept": "from the nocturnal preservation dept.",
-   "summary": "A Minnesota park has been honored as the International Dark Sky Place of the Year. The designation celebrates ongoing efforts to preserve natural darkness and provide exceptional conditions for stargazers and amateur astronomers."
   }
  ]
 }
